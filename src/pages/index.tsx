@@ -1,44 +1,26 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import clsx from 'clsx';
 
+// 만약 CSS 모듈을 사용 중이라면 아래 줄도 확인하세요
 import styles from './index.module.css';
+// src/pages/index.tsx 내의 HomepageHeader 함수 수정 예시
 
-function HomepageHeader() {
+export default function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">SAM's Dev Lab</h1>
+        <p className="hero__subtitle">데이터 분석과 AI를 연구하는 공간입니다.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            블로그 읽어보기 🚀
           </Link>
         </div>
       </div>
     </header>
-  );
-}
-
-export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
   );
 }

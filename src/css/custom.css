@@ -1,30 +1,40 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* 1. 폰트 설정 (Pretendard 연결) */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* 메인 색상: 좀 더 세련된 블루/인디고 계열로 교체 */
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #306cd0;
+  --ifm-color-primary-darker: #2d66c4;
+  --ifm-color-primary-darkest: #2554a1;
+  --ifm-color-primary-light: #538ce9;
+  --ifm-color-primary-lighter: #6297eb;
+  --ifm-color-primary-lightest: #8eb3f2;
+  
+  /* 폰트 적용 */
+  --ifm-font-family-base: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* 코드 폰트 (선택 사항) */
+  --ifm-code-font-size: 90%;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* 2. 레이아웃 깔끔하게 정리 */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* 내비바 그림자 연하게 */
+}
+
+.hero--primary {
+  background-color: #f8f9fa; /* 메인 배경을 아주 밝은 회색으로 */
+  color: #1c1e21; /* 글자는 어둡게 */
+}
+
+[data-theme='dark'] .hero--primary {
+  background-color: #1b1b1d;
+  color: #ffffff;
+}
+
+/* 3. 블로그 포스트 카드 디자인 개선 */
+.margin-vert--xl {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
