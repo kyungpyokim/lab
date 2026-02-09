@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklab=globalThis.webpackChunklab||[]).push([[806],{415(a){a.exports=JSON.parse('{"authors":[{"name":"Kim KyungPyo","title":"Data Analysis","page":{"permalink":"/lab/blog/authors/kyung-pyo"},"key":"kyungPyo","count":0}]}')}}]);

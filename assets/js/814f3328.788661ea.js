@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklab=globalThis.webpackChunklab||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ub370\uc774\ud130 \ubd84\uc11d","permalink":"/lab/blog/2026/02/09/lecture-01","unlisted":false,"date":"2026-02-09T00:00:00.000Z"}]}')}}]);
