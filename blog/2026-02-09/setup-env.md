@@ -1,5 +1,4 @@
-# 데이터 분석 
-## 환경 설정
+# 환경 설정
 
 1. Visual Studio Code 설치
     1. extension 설치
