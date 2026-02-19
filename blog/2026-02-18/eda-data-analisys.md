@@ -1,3 +1,7 @@
+---
+title: EDA 데이터 분석
+slug: eda-data-analisys
+---
 # EDA 분석(이커머스 주문 데이터)
 
 ## 1. 환경 설정

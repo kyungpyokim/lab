@@ -38,3 +38,10 @@
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
 }
+
+/* 네비게이션 바의 로고 이미지를 원형으로 설정 */
+.navbar__logo img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}

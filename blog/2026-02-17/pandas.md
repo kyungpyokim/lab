@@ -1,4 +1,7 @@
-# 판다스(Pandas)
+---
+title: 판다스(Pandas)
+slug: pandas
+---
 
 ## 1. 시리즈(Series)
 ```python

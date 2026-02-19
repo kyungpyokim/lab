@@ -1,4 +1,7 @@
-# 환경 설정
+---
+title: 환경 설정
+slug: setup-env
+---
 
 1. Visual Studio Code 설치
     1. extension 설치
@@ -14,7 +17,7 @@
         ```
 1. 파이썬 / 쥬피터 노트북 설치
 1. uv 환경 설정
-    1. uv 설정
+    1. uv 설정  
         ```
         uv init
         ```

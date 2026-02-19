@@ -1,4 +1,8 @@
-# NumPy
+---
+title: Numpy
+slug: numpy
+---
+
 ## 1. import
 ```
 import numpy as np // numpy를 import하고 별칭을 np로 바꾼다.
