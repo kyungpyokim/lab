@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklab=globalThis.webpackChunklab||[]).push([[4583],{6866(a,l,b){b.r(l),b.d(l,{default:()=>u});b(6540);var n=b(6347),s=b(6025),t=b(4848);function u(){const a=(0,s.Ay)("/blog-index");return(0,t.jsx)(n.rd,{to:a})}}}]);
