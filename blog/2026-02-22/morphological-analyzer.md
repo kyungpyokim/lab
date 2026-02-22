@@ -3,6 +3,7 @@ title: 1. 형태소 분석기
 slug: morphological-analyzer
 ---
 
+# 1. 형태소 분석기
 ## 1) Konlpy - Okt 형태소 분석기
 ```py
 # konlpy, jpype1, java 11버전 설치
