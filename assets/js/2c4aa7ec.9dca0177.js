@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklab=globalThis.webpackChunklab||[]).push([[915],{243(a){a.exports=JSON.parse('{"tags":[{"label":"Machine Learning","permalink":"/lab/blog/tags/machine-learning","count":1},{"label":"Python","permalink":"/lab/blog/tags/python","count":1},{"label":"Scikit-learn","permalink":"/lab/blog/tags/scikit-learn","count":1}]}')}}]);

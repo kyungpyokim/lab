@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunklab=globalThis.webpackChunklab||[]).push([[7292],{9494(a){a.exports=JSON.parse('{"metadata":{"permalink":"/lab/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
