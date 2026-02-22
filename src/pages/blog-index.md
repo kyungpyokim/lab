@@ -17,6 +17,7 @@ title: 데이터 분석 블로그
 - [Numpy](/blog/numpy)
 - [Pandas](/blog/pandas)
 - [EDA 데이터 분석](/blog/eda-data-analisys)
+- [텍스트 데이터 분석](/blog/morphological-analyzer)
 ---
 
 <!-- ## 🤖 머신러닝 기초
