@@ -19,10 +19,10 @@ title: 데이터 분석 블로그
 - [EDA 데이터 분석](/blog/eda-data-analisys)
 ---
 
-## 🤖 머신러닝 기초
+<!-- ## 🤖 머신러닝 기초
 - [ML 개념 정리](/blog/ml-intro)
 
 ---
 
 ## 🚀 프로젝트
-- [1월 프로젝트](/blog/project-01)
+- [1월 프로젝트](/blog/project-01) -->
